@@ -1,0 +1,25 @@
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: #11477d !important;
+   color:white;
+   padding:20px;
+}
+
+
+.imgBx {
+    padding-left: 800px;
+    padding-top: 30px;
+    
+}
+
+img{
+    position: absolute;
+}
+
+.badge .bg-secondary{
+    margin-top: 50px;
+    padding-top: 50px;
+    
+    
+    background-color:yellowgreen !important;
+    
+}

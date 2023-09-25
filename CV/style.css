@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: rgb(10, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+
+    position:relative;
+    width:100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    box-shadow: 0 35px 55px rgba(0,0,0,0,0.1);
+
+}
+
+.container .left-side {
+
+    position: relative;
+    background: #044360;
+    padding: 40px;
+
+}
+
+.ProfileText {
+
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,255,0.2);
+}
+
+.ProfileText .imgBX {
+
+    position:relative;
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.ProfileText .imgBX img {
+
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.ProfileText h2 {
+
+    color:#ffffff;
+    font-size: 1.5em;
+    margin-top: 20PX;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight:600;
+    line-height:1.4em;
+}
+
+.ProfileText h2 span{
+
+    color:aqua;
+    font-size: 0.8em;
+    font-weight: 600;
+    
+
+}
+
+
+.contactInfo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.title {
+
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contactInfo ul {
+    
+    position: relative;
+    
+}
+
+.contactInfo ul li {
+
+    position: relative;
+    list-style: none;
+    margin: 10px;
+    cursor:pointer;
+
+}
+
+.contactInfo ul li .icon {
+
+    display: inline-block;
+    width:30px;
+    font-size: 18px;
+    color:aquamarine;
+}
+
+.contactInfo ul li .text {
+
+
+    color:rgb(121, 221, 187);
+    font-weight:initial ;
+    font-size: 13px;
+    
+
+}
+
+.Education {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Education li {
+    margin-bottom: 13px;
+
+}
+
+.Education h5 {
+
+    color:aqua;
+    font-weight: 500;
+
+}
+
+.Education h4 {
+
+    color:#fff;
+    font-weight: initial;
+    font-size: 13px;
+
+
+}
+
+
+
+.Skills ul {
+
+    position: relative;
+   
+}
+
+.Skills ul li {
+
+
+    color:rgb(121, 221, 187);
+    font-weight: initial;
+    font-size: 13px;
+
+
+}
+
+.container .right-side {
+
+    position: relative;
+    background: #fff;
+    padding: 40px;
+
+}
+
+.about {
+
+    margin-bottom: 50px;
+    
+}
+
+.about:last-child {
+
+    margin-bottom: 0;
+}
+
+.title2 {
+
+    color:#164141;
+    
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    background-color: rgb(26, 141, 141);
+}
+
+p {
+    color:#0c5151;
+    font-display: initial;
+}
+
+.experience {
+
+    color:#086767;
+
+}
+
+.about .exp1 {
+
+
+    margin: 20px 0;
+    min-width: 150px;
+}
+
+.about .exp1 h4 {
+
+    color:#0b9f9f;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.about .project {
+
+
+    margin: 20px 0;
+    min-width: 150px;
+}
+
+.about .project h4 {
+
+    color:#0b9f9f;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.horizontal-line {
+    width: 100%; 
+    height: 2px; 
+    background-color: rgb(17, 115, 148);
+    margin-top: 10px;
+
+}
